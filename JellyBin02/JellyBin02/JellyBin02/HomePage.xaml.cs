@@ -38,16 +38,31 @@ namespace JellyBin02
             
             for (int i = 0; i < Model._locations.Count - 1; i++)
             {
-                map.Pins.Add(
-                new Pin
+               
+     
+                var pin =new Pin
                 {
                     Type = PinType.Place,
-                    Label = Model._locations[i].isFull.ToString(),
+                    Label = Model._locations[i].isFull,
                     Position = new Position(Model._locations[i].lat, Model._locations[i].longit)
 
-                });
+                };
+                map.Pins.Add(pin);
+                pin.Clicked += async (sender, e) =>
+                {
+                   string action =await DisplayActionSheet("Do you want to mark this bin as full?","Cancel", null, "Yes");
+                    if (action == "Yes")
+                    {
+                        Model._locations[i].isFull = "full";
+                        pin.Label="full";
+                        
+                    }
+                };
+
+
 
             }
+          
         }
 
 

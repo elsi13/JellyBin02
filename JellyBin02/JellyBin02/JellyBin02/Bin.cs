@@ -8,7 +8,7 @@ namespace JellyBin02
         public int ID { get; set; }
         public double longit { get; set; }
         public double lat { get; set; }
-        public bool isFull { get; set; }
+        public string isFull { get; set; }
         public int colorID { get; set; }
     }
 }

@@ -1502,24 +1502,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Eli\\.nuget\\packages\\": {},
+    "C:\\Users\\LEGION\\.nuget\\packages\\": {},
     "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Eli\\Desktop\\JellyBin02\\JellyBin02\\JellyBin02\\JellyBin02.Android\\JellyBin02.Android.csproj",
+      "projectUniqueName": "C:\\Users\\LEGION\\Source\\Repos\\JellyBin10\\JellyBin02\\JellyBin02\\JellyBin02.Android\\JellyBin02.Android.csproj",
       "projectName": "JellyBin02.Android",
-      "projectPath": "C:\\Users\\Eli\\Desktop\\JellyBin02\\JellyBin02\\JellyBin02\\JellyBin02.Android\\JellyBin02.Android.csproj",
-      "packagesPath": "C:\\Users\\Eli\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Eli\\Desktop\\JellyBin02\\JellyBin02\\JellyBin02\\JellyBin02.Android\\obj\\",
+      "projectPath": "C:\\Users\\LEGION\\Source\\Repos\\JellyBin10\\JellyBin02\\JellyBin02\\JellyBin02.Android\\JellyBin02.Android.csproj",
+      "packagesPath": "C:\\Users\\LEGION\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\LEGION\\Source\\Repos\\JellyBin10\\JellyBin02\\JellyBin02\\JellyBin02.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\Eli\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\LEGION\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -1533,8 +1533,8 @@
       "frameworks": {
         "monoandroid81": {
           "projectReferences": {
-            "C:\\Users\\Eli\\Desktop\\JellyBin02\\JellyBin02\\JellyBin02\\JellyBin02\\JellyBin02.csproj": {
-              "projectPath": "C:\\Users\\Eli\\Desktop\\JellyBin02\\JellyBin02\\JellyBin02\\JellyBin02\\JellyBin02.csproj"
+            "C:\\Users\\LEGION\\Source\\Repos\\JellyBin10\\JellyBin02\\JellyBin02\\JellyBin02\\JellyBin02.csproj": {
+              "projectPath": "C:\\Users\\LEGION\\Source\\Repos\\JellyBin10\\JellyBin02\\JellyBin02\\JellyBin02\\JellyBin02.csproj"
             }
           }
         }
