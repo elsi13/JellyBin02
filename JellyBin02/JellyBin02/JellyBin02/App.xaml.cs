@@ -10,9 +10,10 @@ namespace JellyBin02
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new HomePage();
         }
-
+        // When we deploy the project to the phone, the first class which will be looked at is App, and InitializeComponent() initializes the 
+        //main page of the app. This creates a connection to HomePage
         protected override void OnStart()
         {
             // Handle when your app starts
