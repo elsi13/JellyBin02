@@ -1,23 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\LEGION\\Source\\Repos\\JellyBin10\\JellyBin02\\JellyBin02\\JellyBin02\\JellyBin02.csproj": {}
+    "C:\\Users\\Lucia\\Desktop\\JellyBin02\\JellyBin02\\JellyBin02\\JellyBin02\\JellyBin02.csproj": {}
   },
   "projects": {
-    "C:\\Users\\LEGION\\Source\\Repos\\JellyBin10\\JellyBin02\\JellyBin02\\JellyBin02\\JellyBin02.csproj": {
+    "C:\\Users\\Lucia\\Desktop\\JellyBin02\\JellyBin02\\JellyBin02\\JellyBin02\\JellyBin02.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\LEGION\\Source\\Repos\\JellyBin10\\JellyBin02\\JellyBin02\\JellyBin02\\JellyBin02.csproj",
+        "projectUniqueName": "C:\\Users\\Lucia\\Desktop\\JellyBin02\\JellyBin02\\JellyBin02\\JellyBin02\\JellyBin02.csproj",
         "projectName": "JellyBin02",
-        "projectPath": "C:\\Users\\LEGION\\Source\\Repos\\JellyBin10\\JellyBin02\\JellyBin02\\JellyBin02\\JellyBin02.csproj",
-        "packagesPath": "C:\\Users\\LEGION\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\LEGION\\Source\\Repos\\JellyBin10\\JellyBin02\\JellyBin02\\JellyBin02\\obj\\",
+        "projectPath": "C:\\Users\\Lucia\\Desktop\\JellyBin02\\JellyBin02\\JellyBin02\\JellyBin02\\JellyBin02.csproj",
+        "packagesPath": "C:\\Users\\Lucia\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Lucia\\Desktop\\JellyBin02\\JellyBin02\\JellyBin02\\JellyBin02\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\LEGION\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Lucia\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -48,6 +49,14 @@
               "version": "[2.0.3, )",
               "autoReferenced": true
             },
+            "SQLiteNetExtensions": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "SQLiteNetExtensions.Async": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
             "Xamarin.Essentials": {
               "target": "Package",
               "version": "[1.3.1, )"
@@ -55,6 +64,10 @@
             "Xamarin.Forms": {
               "target": "Package",
               "version": "[4.2.0.848062, )"
+            },
+            "Xamarin.Forms.GoogleMaps": {
+              "target": "Package",
+              "version": "[3.2.1, )"
             },
             "Xamarin.Forms.Maps": {
               "target": "Package",

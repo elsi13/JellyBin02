@@ -40,3 +40,16 @@ C:\Users\LEGION\Source\Repos\JellyBin10\JellyBin02\JellyBin02\JellyBin02\bin\Deb
 C:\Users\LEGION\Source\Repos\JellyBin10\JellyBin02\JellyBin02\JellyBin02\bin\Debug\netstandard2.0\ref\JellyBin02.dll
 C:\Users\LEGION\Source\Repos\JellyBin10\JellyBin02\JellyBin02\JellyBin02\bin\Debug\netstandard2.0\JellyBin02.pdb
 C:\Users\LEGION\Source\Repos\JellyBin10\JellyBin02\JellyBin02\JellyBin02\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Lucia\Desktop\JellyBin02\JellyBin02\JellyBin02\JellyBin02\bin\Debug\netstandard2.0\JellyBin02.deps.json
+C:\Users\Lucia\Desktop\JellyBin02\JellyBin02\JellyBin02\JellyBin02\bin\Debug\netstandard2.0\JellyBin02.dll
+C:\Users\Lucia\Desktop\JellyBin02\JellyBin02\JellyBin02\JellyBin02\bin\Debug\netstandard2.0\ref\JellyBin02.dll
+C:\Users\Lucia\Desktop\JellyBin02\JellyBin02\JellyBin02\JellyBin02\bin\Debug\netstandard2.0\JellyBin02.pdb
+C:\Users\Lucia\Desktop\JellyBin02\JellyBin02\JellyBin02\JellyBin02\obj\Debug\netstandard2.0\JellyBin02.csprojAssemblyReference.cache
+C:\Users\Lucia\Desktop\JellyBin02\JellyBin02\JellyBin02\JellyBin02\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Lucia\Desktop\JellyBin02\JellyBin02\JellyBin02\JellyBin02\obj\Debug\netstandard2.0\HomePage.xaml.g.cs
+C:\Users\Lucia\Desktop\JellyBin02\JellyBin02\JellyBin02\JellyBin02\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Lucia\Desktop\JellyBin02\JellyBin02\JellyBin02\JellyBin02\obj\Debug\netstandard2.0\JellyBin02.AssemblyInfoInputs.cache
+C:\Users\Lucia\Desktop\JellyBin02\JellyBin02\JellyBin02\JellyBin02\obj\Debug\netstandard2.0\JellyBin02.AssemblyInfo.cs
+C:\Users\Lucia\Desktop\JellyBin02\JellyBin02\JellyBin02\JellyBin02\obj\Debug\netstandard2.0\JellyBin02.dll
+C:\Users\Lucia\Desktop\JellyBin02\JellyBin02\JellyBin02\JellyBin02\obj\Debug\netstandard2.0\ref\JellyBin02.dll
+C:\Users\Lucia\Desktop\JellyBin02\JellyBin02\JellyBin02\JellyBin02\obj\Debug\netstandard2.0\JellyBin02.pdb
