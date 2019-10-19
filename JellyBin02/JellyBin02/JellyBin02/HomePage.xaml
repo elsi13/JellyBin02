@@ -7,10 +7,6 @@
         <Grid>
             <maps:Map x:Name="map" Grid.RowSpan="3" />
 
-            <BoxView Grid.Row="1" BackgroundColor="White" Opacity=".8" />
-
-            <StackLayout Padding="10" Grid.Row="1">
-            </StackLayout>
         </Grid>
     </ContentPage.Content>
 </ContentPage>

@@ -12,3 +12,17 @@ C:\Users\Valentin\Desktop\JellyBin02\JellyBin02\JellyBin02\JellyBin02\obj\Debug\
 C:\Users\Valentin\Desktop\JellyBin02\JellyBin02\JellyBin02\JellyBin02\obj\Debug\netstandard2.0\ref\JellyBin02.dll
 C:\Users\Valentin\Desktop\JellyBin02\JellyBin02\JellyBin02\JellyBin02\obj\Debug\netstandard2.0\JellyBin02.pdb
 C:\Users\Valentin\Desktop\JellyBin02\JellyBin02\JellyBin02\JellyBin02\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Eli\Desktop\JellyBin02\JellyBin02\JellyBin02\JellyBin02\bin\Debug\netstandard2.0\JellyBin02.deps.json
+C:\Users\Eli\Desktop\JellyBin02\JellyBin02\JellyBin02\JellyBin02\bin\Debug\netstandard2.0\JellyBin02.dll
+C:\Users\Eli\Desktop\JellyBin02\JellyBin02\JellyBin02\JellyBin02\bin\Debug\netstandard2.0\ref\JellyBin02.dll
+C:\Users\Eli\Desktop\JellyBin02\JellyBin02\JellyBin02\JellyBin02\bin\Debug\netstandard2.0\JellyBin02.pdb
+C:\Users\Eli\Desktop\JellyBin02\JellyBin02\JellyBin02\JellyBin02\obj\Debug\netstandard2.0\JellyBin02.csprojAssemblyReference.cache
+C:\Users\Eli\Desktop\JellyBin02\JellyBin02\JellyBin02\JellyBin02\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Eli\Desktop\JellyBin02\JellyBin02\JellyBin02\JellyBin02\obj\Debug\netstandard2.0\HomePage.xaml.g.cs
+C:\Users\Eli\Desktop\JellyBin02\JellyBin02\JellyBin02\JellyBin02\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Eli\Desktop\JellyBin02\JellyBin02\JellyBin02\JellyBin02\obj\Debug\netstandard2.0\JellyBin02.AssemblyInfoInputs.cache
+C:\Users\Eli\Desktop\JellyBin02\JellyBin02\JellyBin02\JellyBin02\obj\Debug\netstandard2.0\JellyBin02.AssemblyInfo.cs
+C:\Users\Eli\Desktop\JellyBin02\JellyBin02\JellyBin02\JellyBin02\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Eli\Desktop\JellyBin02\JellyBin02\JellyBin02\JellyBin02\obj\Debug\netstandard2.0\JellyBin02.dll
+C:\Users\Eli\Desktop\JellyBin02\JellyBin02\JellyBin02\JellyBin02\obj\Debug\netstandard2.0\ref\JellyBin02.dll
+C:\Users\Eli\Desktop\JellyBin02\JellyBin02\JellyBin02\JellyBin02\obj\Debug\netstandard2.0\JellyBin02.pdb

@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="com.companyname.jellybin02" android:installLocation="auto">
 	<uses-sdk android:minSdkVersion="21" android:targetSdkVersion="27" />
 	<application android:label="JellyBin02.Android">
-		<meta-data android:name="com.google.android.maps.v2.API_KEY" android:value="AIzaSyAzhEWV2S6cC7ggV_G6OdGLyP4sP0nf2Ak" />
+		<meta-data android:name="com.google.android.maps.v2.API_KEY" android:value="AIzaSyCxx1fHV0Mx5c0yKvK61VcWPcQfIqtej2g" />
     <uses-library android:name="org.apache.http.legacy" android:required="false" />
   </application>
 	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />

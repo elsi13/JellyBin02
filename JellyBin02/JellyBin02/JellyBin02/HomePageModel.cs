@@ -13,8 +13,7 @@ namespace JellyBin02
         public HomePageModel()
         {
             map = new Map();
-            map.MoveToRegion(MapSpan.FromCenterAndRadius(new Position(55.8816253, -4.3175199),
-                Distance.FromMiles(.5)));
+           
 
             GetGroupedTodoList().ContinueWith(t =>
             {
@@ -36,25 +35,14 @@ namespace JellyBin02
 
         };
 
-            for(int i = 0; i<_locations.Count-1; i++)
-            {
-                map.Pins.Add(
-                new Pin
-                {
-                    Type = PinType.Place,
-                    Label = _locations[i].isFull.ToString(),
-                    Position = new Position(_locations[i].lat, _locations[i].longit)
-
-                });
-
-            }
+            
             
 
         }
 
         //attributes
-        private Map map;
-        private List<Bin> _locations;
+        public Map map;
+        public List<Bin> _locations;
 
         private async Task<List<Bin>> GetGroupedTodoList()
         {
