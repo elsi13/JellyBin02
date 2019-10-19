@@ -1,36 +1,32 @@
 ﻿using System;
 using System.IO;
 using Xamarin.Forms;
-
+//package in which we write the program     
 namespace JellyBin02
 
 {
+    //name of the class (public=accessible by everything, partial = ? )
     public partial class HomePage : ContentPage
     {
-        string _fileName = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "notes.txt");
-
+        //constructor: initialise instance of the class
         public HomePage()
         {
+            //built in 
             InitializeComponent();
+            //bind together HomePage.xaml.cs with HomePageModel.cs
+            BindingContext = new HomePageModel();
 
-            if (File.Exists(_fileName))
-            {
-                editor.Text = File.ReadAllText(_fileName);
-            }
+
+           
         }
-
-        void OnSaveButtonClicked(object sender, EventArgs e)
+        //void=dont return a value, just run. protected=subclasses can see it. overriding the parent method "OnAppearing" 
+        //which is built into ContentPage. we override because we want to add functionality to the OnAppearing method.
+        protected override async void OnAppearing()
         {
-            File.WriteAllText(_fileName, editor.Text);
+            //call parent function
+            base.OnAppearing();
         }
 
-        void OnDeleteButtonClicked(object sender, EventArgs e)
-        {
-            if (File.Exists(_fileName))
-            {
-                File.Delete(_fileName);
-            }
-            editor.Text = string.Empty;
-        }
+
     }
 }

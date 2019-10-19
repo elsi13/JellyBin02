@@ -3,6 +3,7 @@ using System.Threading.Tasks;
 using SQLite;
 
 namespace JellyBin02
+
 {
     public class Database
     {
