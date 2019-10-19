@@ -4,6 +4,12 @@ C:\Users\Valentin\Desktop\JellyBin02\JellyBin02\JellyBin02\JellyBin02.Android\ob
 C:\Users\Valentin\Desktop\JellyBin02\JellyBin02\JellyBin02\JellyBin02.Android\obj\Debug\81\android\assets\JellyBin02.dll
 C:\Users\Valentin\Desktop\JellyBin02\JellyBin02\JellyBin02\JellyBin02.Android\obj\Debug\81\android\assets\Mono.Android.dll
 C:\Users\Valentin\Desktop\JellyBin02\JellyBin02\JellyBin02\JellyBin02.Android\obj\Debug\81\android\assets\mscorlib.dll
+C:\Users\Valentin\Desktop\JellyBin02\JellyBin02\JellyBin02\JellyBin02.Android\obj\Debug\81\android\assets\SQLite-net.dll
+C:\Users\Valentin\Desktop\JellyBin02\JellyBin02\JellyBin02\JellyBin02.Android\obj\Debug\81\android\assets\SQLitePCLRaw.batteries_green.dll
+C:\Users\Valentin\Desktop\JellyBin02\JellyBin02\JellyBin02\JellyBin02.Android\obj\Debug\81\android\assets\SQLitePCLRaw.batteries_v2.dll
+C:\Users\Valentin\Desktop\JellyBin02\JellyBin02\JellyBin02\JellyBin02.Android\obj\Debug\81\android\assets\SQLitePCLRaw.core.dll
+C:\Users\Valentin\Desktop\JellyBin02\JellyBin02\JellyBin02\JellyBin02.Android\obj\Debug\81\android\assets\SQLitePCLRaw.lib.e_sqlite3.dll
+C:\Users\Valentin\Desktop\JellyBin02\JellyBin02\JellyBin02\JellyBin02.Android\obj\Debug\81\android\assets\SQLitePCLRaw.provider.e_sqlite3.dll
 C:\Users\Valentin\Desktop\JellyBin02\JellyBin02\JellyBin02\JellyBin02.Android\obj\Debug\81\android\assets\System.Core.dll
 C:\Users\Valentin\Desktop\JellyBin02\JellyBin02\JellyBin02\JellyBin02.Android\obj\Debug\81\android\assets\System.dll
 C:\Users\Valentin\Desktop\JellyBin02\JellyBin02\JellyBin02\JellyBin02.Android\obj\Debug\81\android\assets\System.Numerics.dll
