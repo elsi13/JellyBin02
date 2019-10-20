@@ -53,3 +53,4 @@ C:\Users\Lucia\Desktop\JellyBin02\JellyBin02\JellyBin02\JellyBin02\obj\Debug\net
 C:\Users\Lucia\Desktop\JellyBin02\JellyBin02\JellyBin02\JellyBin02\obj\Debug\netstandard2.0\JellyBin02.dll
 C:\Users\Lucia\Desktop\JellyBin02\JellyBin02\JellyBin02\JellyBin02\obj\Debug\netstandard2.0\ref\JellyBin02.dll
 C:\Users\Lucia\Desktop\JellyBin02\JellyBin02\JellyBin02\JellyBin02\obj\Debug\netstandard2.0\JellyBin02.pdb
+C:\Users\Lucia\Desktop\JellyBin02\JellyBin02\JellyBin02\JellyBin02\obj\Debug\netstandard2.0\XamlC.stamp
