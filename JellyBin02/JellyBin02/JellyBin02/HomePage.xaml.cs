@@ -28,8 +28,10 @@ namespace JellyBin02
 
 
         }
+
         //void=dont return a value, just run. protected=subclasses can see it. overriding the parent method "OnAppearing" 
         //which is built into ContentPage. we override because we want to add functionality to the OnAppearing method.
+        [Obsolete]
         protected async override void OnAppearing()
         {
             //call parent function
@@ -139,13 +141,14 @@ namespace JellyBin02
 
                 };
                 map.Pins.Add(pin);
+
                 pin.Clicked += async (sender, e) =>
                 {
                     string action = await DisplayActionSheet("Do you want to mark this bin as full?", "No", null, "Yes");
                     if (action == "Yes")
                     {
                         pin.Label = "full";
-                        await App.database.UpdateItem<Bin>(Model.locations[i]);
+                        //await App.database.UpdateItem<Bin>(Model.locations[i]);
                     }
                 };
 
@@ -157,12 +160,12 @@ namespace JellyBin02
             if (Model.trashbool)
             {
                 map.Opacity = 0.75;
-                //map.MapType = Xamarin.Forms.GoogleMaps.MapType.Hybrid;
+                map.MapType = Xamarin.Forms.GoogleMaps.MapType.Hybrid;
             }
             else
             {
                 map.Opacity = 1;
-                //map.MapType = Xamarin.Forms.GoogleMaps.MapType.Street;
+                map.MapType = Xamarin.Forms.GoogleMaps.MapType.Street;
             }
         }
 
