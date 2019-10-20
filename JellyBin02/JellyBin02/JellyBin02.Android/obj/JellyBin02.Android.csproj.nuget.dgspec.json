@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Lucia\\Desktop\\JellyBin02\\JellyBin02\\JellyBin02\\JellyBin02.Android\\JellyBin02.Android.csproj": {}
+    "C:\\Users\\Eli\\Desktop\\NewJelly\\JellyBin02\\JellyBin02\\JellyBin02\\JellyBin02.Android\\JellyBin02.Android.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Lucia\\Desktop\\JellyBin02\\JellyBin02\\JellyBin02\\JellyBin02.Android\\JellyBin02.Android.csproj": {
+    "C:\\Users\\Eli\\Desktop\\NewJelly\\JellyBin02\\JellyBin02\\JellyBin02\\JellyBin02.Android\\JellyBin02.Android.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Lucia\\Desktop\\JellyBin02\\JellyBin02\\JellyBin02\\JellyBin02.Android\\JellyBin02.Android.csproj",
+        "projectUniqueName": "C:\\Users\\Eli\\Desktop\\NewJelly\\JellyBin02\\JellyBin02\\JellyBin02\\JellyBin02.Android\\JellyBin02.Android.csproj",
         "projectName": "JellyBin02.Android",
-        "projectPath": "C:\\Users\\Lucia\\Desktop\\JellyBin02\\JellyBin02\\JellyBin02\\JellyBin02.Android\\JellyBin02.Android.csproj",
-        "packagesPath": "C:\\Users\\Lucia\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Lucia\\Desktop\\JellyBin02\\JellyBin02\\JellyBin02\\JellyBin02.Android\\obj\\",
+        "projectPath": "C:\\Users\\Eli\\Desktop\\NewJelly\\JellyBin02\\JellyBin02\\JellyBin02\\JellyBin02.Android\\JellyBin02.Android.csproj",
+        "packagesPath": "C:\\Users\\Eli\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Eli\\Desktop\\NewJelly\\JellyBin02\\JellyBin02\\JellyBin02\\JellyBin02.Android\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\Lucia\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Eli\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -32,8 +32,8 @@
         "frameworks": {
           "monoandroid81": {
             "projectReferences": {
-              "C:\\Users\\Lucia\\Desktop\\JellyBin02\\JellyBin02\\JellyBin02\\JellyBin02\\JellyBin02.csproj": {
-                "projectPath": "C:\\Users\\Lucia\\Desktop\\JellyBin02\\JellyBin02\\JellyBin02\\JellyBin02\\JellyBin02.csproj"
+              "C:\\Users\\Eli\\Desktop\\NewJelly\\JellyBin02\\JellyBin02\\JellyBin02\\JellyBin02\\JellyBin02.csproj": {
+                "projectPath": "C:\\Users\\Eli\\Desktop\\NewJelly\\JellyBin02\\JellyBin02\\JellyBin02\\JellyBin02\\JellyBin02.csproj"
               }
             }
           }
@@ -66,21 +66,20 @@
         }
       }
     },
-    "C:\\Users\\Lucia\\Desktop\\JellyBin02\\JellyBin02\\JellyBin02\\JellyBin02\\JellyBin02.csproj": {
+    "C:\\Users\\Eli\\Desktop\\NewJelly\\JellyBin02\\JellyBin02\\JellyBin02\\JellyBin02\\JellyBin02.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Lucia\\Desktop\\JellyBin02\\JellyBin02\\JellyBin02\\JellyBin02\\JellyBin02.csproj",
+        "projectUniqueName": "C:\\Users\\Eli\\Desktop\\NewJelly\\JellyBin02\\JellyBin02\\JellyBin02\\JellyBin02\\JellyBin02.csproj",
         "projectName": "JellyBin02",
-        "projectPath": "C:\\Users\\Lucia\\Desktop\\JellyBin02\\JellyBin02\\JellyBin02\\JellyBin02\\JellyBin02.csproj",
-        "packagesPath": "C:\\Users\\Lucia\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Lucia\\Desktop\\JellyBin02\\JellyBin02\\JellyBin02\\JellyBin02\\obj\\",
+        "projectPath": "C:\\Users\\Eli\\Desktop\\NewJelly\\JellyBin02\\JellyBin02\\JellyBin02\\JellyBin02\\JellyBin02.csproj",
+        "packagesPath": "C:\\Users\\Eli\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Eli\\Desktop\\NewJelly\\JellyBin02\\JellyBin02\\JellyBin02\\JellyBin02\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\Lucia\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Eli\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],

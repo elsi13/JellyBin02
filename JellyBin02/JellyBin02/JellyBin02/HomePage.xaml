@@ -4,18 +4,31 @@
              xmlns:maps="clr-namespace:Xamarin.Forms.GoogleMaps;assembly=Xamarin.Forms.GoogleMaps"
              x:Class="JellyBin02.HomePage">
    <ContentPage.Content>
-        <StackLayout>
-            <Grid>
-                <maps:Map x:Name="map" Grid.RowSpan="3" />
-                <BoxView Grid.Row="1" BackgroundColor="White" Opacity=".8" />
-
-                <StackLayout Padding="10" Grid.Row="1">
-                    <StackLayout>
-                        <Label Text="•"  TextColor="Blue" FontSize="Large"/>
-                        <Label Text="- Paper"  TextColor="Black" FontSize="Medium"/>
+        <StackLayout Orientation="Vertical">
+            <Button Text="Add trash" Command="{Binding AddTrash}" x:Name="AddTrash" ></Button>
+            <maps:Map x:Name="map" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand"/>
+            
+            <StackLayout Orientation="Vertical" Margin="5">
+                <StackLayout Orientation="Horizontal">
+                    <StackLayout Orientation="Horizontal">
+                        <Label Text="*"  TextColor="Blue" FontSize="Large"/>
+                        <Label Text="Paper"  TextColor="Black" FontSize="Default"/>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal">
+                        <Label Text="*"  TextColor="Green" FontSize="Large"/>
+                        <Label Text="Food Waste"  TextColor="Black" FontSize="Default"/>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal">
+                        <Label Text="*"  TextColor="MediumPurple" FontSize="Large"/>
+                        <Label Text="Glass"  TextColor="Black" FontSize="Default"/>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal">
+                        <Label Text="*"  TextColor="Brown" FontSize="Large"/>
+                        <Label Text="Garden Waste"  TextColor="Black" FontSize="Default"/>
                     </StackLayout>
                 </StackLayout>
-            </Grid>
+            </StackLayout>
+            
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
