@@ -4,9 +4,18 @@
              xmlns:maps="clr-namespace:Xamarin.Forms.GoogleMaps;assembly=Xamarin.Forms.GoogleMaps"
              x:Class="JellyBin02.HomePage">
    <ContentPage.Content>
-        <Grid>
-            <maps:Map x:Name="map" Grid.RowSpan="3" />
+        <StackLayout>
+            <Grid>
+                <maps:Map x:Name="map" Grid.RowSpan="3" />
+                <BoxView Grid.Row="1" BackgroundColor="White" Opacity=".8" />
 
-        </Grid>
+                <StackLayout Padding="10" Grid.Row="1">
+                    <StackLayout>
+                        <Label Text="•"  TextColor="Blue" FontSize="Large"/>
+                        <Label Text="- Paper"  TextColor="Black" FontSize="Medium"/>
+                    </StackLayout>
+                </StackLayout>
+            </Grid>
+        </StackLayout>
     </ContentPage.Content>
 </ContentPage>

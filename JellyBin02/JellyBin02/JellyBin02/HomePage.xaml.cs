@@ -29,10 +29,12 @@ namespace JellyBin02
         }
         //void=dont return a value, just run. protected=subclasses can see it. overriding the parent method "OnAppearing" 
         //which is built into ContentPage. we override because we want to add functionality to the OnAppearing method.
-        protected override void OnAppearing()
+        protected async override void OnAppearing()
         {
             //call parent function
             base.OnAppearing();
+
+            Model.locations = await Model.GetGroupedList();
 
             map.MoveToRegion(Xamarin.Forms.GoogleMaps.MapSpan.FromCenterAndRadius(new Xamarin.Forms.GoogleMaps.Position(55.872110, -4.294449),
                Xamarin.Forms.GoogleMaps.Distance.FromMiles(.5)));
@@ -71,14 +73,24 @@ namespace JellyBin02
                         break;
                 }
 
-                map.Pins.Add(
-            new Xamarin.Forms.GoogleMaps.Pin
-            {
-                Type = Xamarin.Forms.GoogleMaps.PinType.Place,
-                Label = Model.locations[i].isFull.ToString(),
-                Position = new Xamarin.Forms.GoogleMaps.Position(Model.locations[i].lat, Model.locations[i].longit),
-                Icon = Xamarin.Forms.GoogleMaps.BitmapDescriptorFactory.DefaultMarker(color)
-            });
+                var pin = new Xamarin.Forms.GoogleMaps.Pin
+                {
+                    Type = Xamarin.Forms.GoogleMaps.PinType.Place,
+                    Label = Model.locations[i].isFull.ToString(),
+                    Position = new Xamarin.Forms.GoogleMaps.Position(Model.locations[i].lat, Model.locations[i].longit),
+                    Icon = Xamarin.Forms.GoogleMaps.BitmapDescriptorFactory.DefaultMarker(color)
+
+                };
+                map.Pins.Add(pin);
+                pin.Clicked += async (sender, e) =>
+                {
+                    string action = await DisplayActionSheet("Do you want to mark this bin as full?", "Cancel", null, "Yes", "No");
+                    if (action == "Yes")
+                    {
+                        pin.Label = "full";
+                        await App.database.UpdateItem<Bin>(Model.locations[i]);
+                    }
+                };
 
             }
         }

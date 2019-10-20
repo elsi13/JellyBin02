@@ -9,21 +9,10 @@ namespace JellyBin02
     {
         public static Database database;
 
-        public static Database Database
-        {
-            get
-            {
-                if (database == null)
-                {
-                    database = new Database(Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "bin.db3"));
-                }
-                return database;
-            }
-        }
         public App()
         {
             InitializeComponent();
-
+            database = new Database(Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "bin.db3"));
             MainPage = new HomePage();
         }
         // When we deploy the project to the phone, the first class which will be looked at is App, and InitializeComponent() initializes the 

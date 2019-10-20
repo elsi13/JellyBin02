@@ -13,13 +13,8 @@ namespace JellyBin02
         public HomePageModel()
         {
             map = new Map();
-           
-            GetGroupedTodoList().ContinueWith(t =>
-            {
-                locations = t.Result;
-            }).Wait();
 
-            /*locations = new List<Bin>
+            locations = new List<Bin>
             {
                 new Bin { longit = -4.294466, lat = 55.873912, isFull = "empty", colorID = 1},
                 new Bin { longit = -4.295075 , lat = 55.874898, isFull = "empty", colorID = 2},
@@ -32,14 +27,14 @@ namespace JellyBin02
                 new Bin { longit = -4.286724, lat = 55.873536, isFull = "empty", colorID = 4},
                 new Bin { longit = -4.287175, lat = 55.877081, isFull = "empty", colorID = 3}
 
-            };*/
+            };
         }
 
         //attributes
         public Map map;
         public List<Bin> locations;
 
-        private async Task<List<Bin>> GetGroupedTodoList()
+        public async Task<List<Bin>> GetGroupedList()
         {
             return await App.database.GetBinAsync();
         }
